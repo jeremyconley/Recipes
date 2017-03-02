@@ -14,9 +14,9 @@
 		3F69FAF41E578C7F001CAB0E /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69FAF31E578C7F001CAB0E /* ArcLayer.swift */; };
 		3F869F6A1E467562005AC1CF /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F869F691E467562005AC1CF /* RecipeDetailViewController.swift */; };
 		3F86CA4B1E46345C0095763A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86CA4A1E46345C0095763A /* Recipe.swift */; };
-		3F86CA4E1E4634AB0095763A /* UIImageView+DownloadWithCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86CA4C1E4634AB0095763A /* UIImageView+DownloadWithCache.swift */; };
-		3F86CA4F1E4634AB0095763A /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86CA4D1E4634AB0095763A /* UIView+Anchors.swift */; };
 		3F86CA511E4637A20095763A /* RecipeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F86CA501E4637A20095763A /* RecipeMainViewController.swift */; };
+		3FD34AE51E6884400016E2BA /* UIImageView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD34AE41E6884400016E2BA /* UIImageView+Cache.swift */; };
+		3FD34AE71E68844E0016E2BA /* View+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD34AE61E68844E0016E2BA /* View+Anchor.swift */; };
 		3FECB8461D9C5E0700E4B294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FECB8451D9C5E0700E4B294 /* AppDelegate.swift */; };
 		3FECB8481D9C5E0700E4B294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FECB8471D9C5E0700E4B294 /* ViewController.swift */; };
 		3FECB84B1D9C5E0700E4B294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FECB8491D9C5E0700E4B294 /* Main.storyboard */; };
@@ -55,9 +55,9 @@
 		3F69FAF31E578C7F001CAB0E /* ArcLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
 		3F869F691E467562005AC1CF /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		3F86CA4A1E46345C0095763A /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
-		3F86CA4C1E4634AB0095763A /* UIImageView+DownloadWithCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+DownloadWithCache.swift"; path = "../../Extensions/UIImageView+DownloadWithCache.swift"; sourceTree = "<group>"; };
-		3F86CA4D1E4634AB0095763A /* UIView+Anchors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Anchors.swift"; path = "../../Extensions/UIView+Anchors.swift"; sourceTree = "<group>"; };
 		3F86CA501E4637A20095763A /* RecipeMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeMainViewController.swift; sourceTree = "<group>"; };
+		3FD34AE41E6884400016E2BA /* UIImageView+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Cache.swift"; sourceTree = "<group>"; };
+		3FD34AE61E68844E0016E2BA /* View+Anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Anchor.swift"; sourceTree = "<group>"; };
 		3FECB8421D9C5E0700E4B294 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FECB8451D9C5E0700E4B294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FECB8471D9C5E0700E4B294 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,8 +154,6 @@
 				3FECB84E1D9C5E0700E4B294 /* LaunchScreen.storyboard */,
 				3FECB8511D9C5E0700E4B294 /* Info.plist */,
 				3F86CA4A1E46345C0095763A /* Recipe.swift */,
-				3F86CA4C1E4634AB0095763A /* UIImageView+DownloadWithCache.swift */,
-				3F86CA4D1E4634AB0095763A /* UIView+Anchors.swift */,
 				3F86CA501E4637A20095763A /* RecipeMainViewController.swift */,
 				3F2FE03B1E463D4700CD31BF /* RecipeCollectionViewCell.swift */,
 				3F869F691E467562005AC1CF /* RecipeDetailViewController.swift */,
@@ -163,6 +161,8 @@
 				3F69FAF11E5778C1001CAB0E /* LaunchAnimationViewController.swift */,
 				3F69FAF31E578C7F001CAB0E /* ArcLayer.swift */,
 				3FF8C06C1E5B721D00ADB357 /* titleFont.ttf */,
+				3FD34AE41E6884400016E2BA /* UIImageView+Cache.swift */,
+				3FD34AE61E68844E0016E2BA /* View+Anchor.swift */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -464,9 +464,9 @@
 			files = (
 				3F3DCE391E46976B001608A9 /* IngredientsCollectionViewCell.swift in Sources */,
 				3F86CA4B1E46345C0095763A /* Recipe.swift in Sources */,
-				3F86CA4E1E4634AB0095763A /* UIImageView+DownloadWithCache.swift in Sources */,
 				3F869F6A1E467562005AC1CF /* RecipeDetailViewController.swift in Sources */,
-				3F86CA4F1E4634AB0095763A /* UIView+Anchors.swift in Sources */,
+				3FD34AE51E6884400016E2BA /* UIImageView+Cache.swift in Sources */,
+				3FD34AE71E68844E0016E2BA /* View+Anchor.swift in Sources */,
 				3F69FAF41E578C7F001CAB0E /* ArcLayer.swift in Sources */,
 				3FECB8481D9C5E0700E4B294 /* ViewController.swift in Sources */,
 				3F2FE03C1E463D4700CD31BF /* RecipeCollectionViewCell.swift in Sources */,
